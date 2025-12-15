@@ -15,7 +15,7 @@ series_ids = {
     'CES0600000007': 'Average Weekly Hours (Private)'
 }
 
-start_year = str(date.today().year - 10)
+start_year = str(date.today().year - 9)
 end_year = str(date.today().year)
 
 headers = {'Content-type': 'application/json'}
