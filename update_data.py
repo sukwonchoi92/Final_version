@@ -34,7 +34,7 @@ data = json.dumps({
 })
 
 print("Requesting data from BLS API...")
-p = requests.post('https://api.bls.gov/publicAPI/v2/timeseries/data/';,
+p = requests.post('https://api.bls.gov/publicAPI/v2/timeseries/data/',
 data=data,
 headers=headers)
 
